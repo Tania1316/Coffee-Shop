@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+body {
+    color:rgb(0, 0, 0);
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(187, 178, 178);
+    font-size: 18px;
+}
+.navbar {
+    /* border:solid 4px black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size:larger;
+    color: black;
+    text-decoration: none;
+}
+.coffeeshopimage {
+    display: flex;
+    align-items: center;
+}
+.header {
+    /* border: solid yellowgreen; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;    
+}
+.navbarbottom {
+    /* border:solid 4px black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size:larger;
+    color: black;
+    text-decoration: none;
+}
+.navbutton {
+border: none;
+padding-left: 10px; 
+padding-right: 10px;
+align-items: flex-end;
+color: rgb(8, 8, 8);
+text-decoration: none;
+font-size: xx-large;
+}
+.navbarbottombutton {
+ border: none;
+align-items: flex-end;
+color: rgb(8, 8, 8);
+text-decoration: none;   
+}
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: xx-large;
+}
+.drinksmenu {
+    font-size: x-large;
+}
+
+.cfs {
+    /* border: solid red 1px; */
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;       
+}
+.cft {
+    /* border: solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}
+.pancake {
+    /* border: solid 2px pink; */
+    width: 31%;
+  display: flex;
+  flex-direction: column; 
+  align-content: flex-start;
+  font-size: small;
+  
+}
+.cinnamon {
+    margin-left: 20px;
+    width: 31%;
+    display: flex;
+    flex-direction:column; 
+    align-content:flex-start;
+    font-size: small;
+}
+.cookie {
+    margin-left: 20px;
+    width: 31%;
+    display: flex;
+    flex-direction: column; 
+    align-content:flex-start;
+    font-size: small;    
+}
+.drink {
+    /* border: solid 2px orangered; */
+    width: 21%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    text-align: center;
+    
+}
+
+.piccontainer {
+    /* border: solid 2px orange; */
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.piccontainer2{
+    /* border: solid 2px rgb(255, 0, 191); */
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;   
+}
+.cinnamonroll {
+    /* border: solid 1px rgb(14, 13, 13); */
+    width: 31%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 2.5%;
+}
+.cookies {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 31%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.pancakes {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 31%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 10%;
+    padding-top: 4.7%;
+}
+.allday {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 31%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 15%;
+    padding-top: 12%;
+}
+.foodrow1 {
+    /* border: solid 1px yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foodrow2 {
+    /* border: solid 1px rgb(97, 50, 205); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.coffeemenu {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.teamenu {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.coffeetea {
+    /* border: solid 1px yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.frappe {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.softdrink {
+    /* border: solid 1px rgb(8, 8, 8); */
+    width: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+    font-size: small;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.frappesoft {
+    /* border: solid 1px yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.wheretofindus {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    font-size: 300%;
+    align-content: center;
+    justify-content: center;
+}
+.openinghours {
+     /* border: solid red; */
+     font-family: "Kanit", sans-serif;
+     display: flex;
+     flex-direction: column;
+     font-size: 80%;
+     align-content: center;
+     align-items: center;
+     justify-content: center; 
+}
+.locationimage {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
