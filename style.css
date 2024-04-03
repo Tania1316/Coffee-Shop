@@ -16,7 +16,8 @@ body {
     flex-direction: row;
     font-size:larger;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+
 }
 .coffeeshopimage {
     display: flex;
@@ -40,7 +41,7 @@ body {
     flex-direction: row;
     font-size:larger;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .navbutton {
 border: none;
@@ -59,10 +60,12 @@ text-decoration: none;
 }
 h1 {
     font-size: xx-large;
+    text-decoration: underline;
 }
 
 h2 {
     font-size: xx-large;
+    text-decoration: underline;
 }
 .drinksmenu {
     font-size: x-large;
@@ -85,7 +88,8 @@ h2 {
     padding-right: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;   
+    width: 50%; 
+    text-decoration-line: underline;  
 }
 .pancake {
     /* border: solid 2px pink; */
@@ -139,6 +143,7 @@ h2 {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;   
+    padding-right: 150px;
 }
 .cinnamonroll {
     /* border: solid 1px rgb(14, 13, 13); */
@@ -149,6 +154,20 @@ h2 {
     font-size: small;
     padding-bottom: 2.5%;
 }
+.cinnamonrolltitle {
+      /* border: solid 1px red; */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; 
+      text-decoration: underline; 
+}
+.cinnamonrolltext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+}
 .cookies {
     /* border: solid 1px rgb(8, 8, 8); */
     width: 31%;
@@ -156,8 +175,22 @@ h2 {
     flex-direction: column; 
     align-content: flex-start;
     font-size: small;
-    padding-bottom: 5%;
+    padding-bottom: 7.5%;
     padding-top: 5%;
+}
+.cookiestitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: underline;  
+}
+.cookiestext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 .pancakes {
     /* border: solid 1px rgb(8, 8, 8); */
@@ -169,6 +202,20 @@ h2 {
     padding-bottom: 10%;
     padding-top: 4.7%;
 }
+.pancakestitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline; 
+}
+.pancaketext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
 .allday {
     /* border: solid 1px rgb(8, 8, 8); */
     width: 31%;
@@ -178,6 +225,23 @@ h2 {
     font-size: small;
     padding-bottom: 15%;
     padding-top: 12%;
+}
+.alldaytitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline; 
+}
+.alldaytext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-bottom: 30px; 
+    padding-top: 30px;
+    padding-left: 18px;
 }
 .foodrow1 {
     /* border: solid 1px yellowgreen; */
@@ -199,9 +263,42 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.coffeetitle {
+
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline; 
+}
+.teatitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline; 
+}
+.frappetitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;   
+}
+.softdrinktitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline; 
+}
 .coffeemenu {
     /* border: solid 1px rgb(8, 8, 8); */
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column; 
     align-content: flex-start;
@@ -209,9 +306,21 @@ h2 {
     padding-bottom: 20%;
     padding-top: 20%;
 }
+.coffeetext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teatext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 .teamenu {
     /* border: solid 1px rgb(8, 8, 8); */
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column; 
     align-content: flex-start;
@@ -224,12 +333,13 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: flex-start;
+    padding-bottom: 0%;
 }
 .frappe {
     /* border: solid 1px rgb(8, 8, 8); */
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column; 
     align-content: flex-start;
@@ -237,23 +347,36 @@ h2 {
     padding-bottom: 20%;
     padding-top: 20%;
 }
+.frappetext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 .softdrink {
     /* border: solid 1px rgb(8, 8, 8); */
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column; 
     align-content: flex-start;
     font-size: small;
     padding-bottom: 20%;
     padding-top: 20%;
+}
+.softdrinktext {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 .frappesoft {
     /* border: solid 1px yellowgreen; */
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-content: space-around;
     align-content: flex-start;
+    padding-top: 0%;
 }
 .wheretofindus {
     /* border: solid red; */
